@@ -1,0 +1,44 @@
+.converterSection {
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.converterContainer {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  margin: auto;
+  padding: 10rem 0 12.5rem;
+  width: 60%;
+}
+
+.converterHeading {
+  color: #fff;
+}
+
+.converter {
+  display: flex;
+  justify-content: center;
+  gap: .3rem;
+}
+
+.converterSwitchButton {
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.converterSwitchButton:hover {
+  opacity: .9;
+}

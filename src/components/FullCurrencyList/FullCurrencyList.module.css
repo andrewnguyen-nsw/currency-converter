@@ -1,0 +1,50 @@
+.fullListContainer {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  margin: auto;
+  padding: 6rem 0 10rem;
+  width: 60%;
+}
+
+.fullListSearchInput {
+  font-size: 14px;
+  display: block;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 10px 16px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.fullListSearchInput:hover {
+  border: 1px solid #9b2e34;
+}
+
+.fullListSearchInput:focus {
+  border: 1px solid #9b2e34;
+}
+
+.fullListCurrencyItem {
+  display: flex;
+  padding: 0.5rem;
+  gap: 1rem;
+  border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+.fullListCurrencyCode {
+  width: 20%;
+  padding-left: 4%;
+}
+
+.fullListCurrencyName {
+  text-align: left;
+}
+
+/*?---------- Mobile ----------?*/
+@media (max-width: 46.1875em) {
+  .fullListContainer {
+    width: 80%;
+  }
+}

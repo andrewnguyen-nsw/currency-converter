@@ -1,0 +1,7 @@
+.switchButton {
+  cursor: pointer;
+  padding: .9rem 1rem;
+  border-radius: 4px;
+  border: 0 solid transparent;
+}
+

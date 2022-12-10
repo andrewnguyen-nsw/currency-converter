@@ -1,0 +1,54 @@
+/** Reset CSS **/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+:focus-visible {
+  outline: none;
+}
+
+.form input,
+.submit input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #d2b5a7;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #d2b5a7;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #d2b5a7;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Styles */
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+.heading {
+  font-size: 2em;
+  text-align: center;
+}
