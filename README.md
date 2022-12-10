@@ -1,5 +1,5 @@
 # Currency Converter React App
-A React App with two main function:
+A React App with two main functions:
 - Currency Converter
 - Search for Currency
 
